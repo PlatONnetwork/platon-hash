@@ -1,18 +1,18 @@
-eth\_hash package
+platon\_hash package
 =================
 
-eth\_hash\.auto module
+platon\_hash\.auto module
 ----------------------
 
-.. automodule:: eth_hash.auto
+.. automodule:: platon_hash.auto
     :members:
     :undoc-members:
     :show-inheritance:
 
-eth\_hash\.main module
+platon\_hash\.main module
 ----------------------
 
-.. automodule:: eth_hash.main
+.. automodule:: platon_hash.main
     :members:
     :undoc-members:
     :show-inheritance:

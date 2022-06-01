@@ -1,29 +1,29 @@
-eth\_hash.backends package
+platon_utils\_hash.backends package
 ==========================
 
 Submodules
 ----------
 
-eth\_hash.backends.auto module
+platon\_hash.backends.auto module
 ------------------------------
 
-.. automodule:: eth_hash.backends.auto
+.. automodule:: platon_hash.backends.auto
     :members:
     :undoc-members:
     :show-inheritance:
 
-eth\_hash.backends.pycryptodome module
+platon\_hash.backends.pycryptodome module
 --------------------------------------
 
-.. automodule:: eth_hash.backends.pycryptodome
+.. automodule:: platon_hash.backends.pycryptodome
     :members:
     :undoc-members:
     :show-inheritance:
 
-eth\_hash.backends.pysha3 module
+platon\_hash.backends.pysha3 module
 --------------------------------
 
-.. automodule:: eth_hash.backends.pysha3
+.. automodule:: platon_hash.backends.pysha3
     :members:
     :undoc-members:
     :show-inheritance:
@@ -32,7 +32,7 @@ eth\_hash.backends.pysha3 module
 Module contents
 ---------------
 
-.. automodule:: eth_hash.backends
+.. automodule:: platon_hash.backends
     :members:
     :undoc-members:
     :show-inheritance:

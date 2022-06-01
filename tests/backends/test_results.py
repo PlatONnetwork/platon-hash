@@ -9,7 +9,7 @@ import pytest
 
 @pytest.fixture
 def keccak_auto():
-    from eth_hash.auto import keccak
+    from platon_hash.auto import keccak
     return keccak
 
 

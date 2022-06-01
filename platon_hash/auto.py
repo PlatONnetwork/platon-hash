@@ -1,7 +1,7 @@
-from eth_hash.backends.auto import (
+from platon_hash.backends.auto import (
     AutoBackend,
 )
-from eth_hash.main import (
+from platon_hash.main import (
     Keccak256,
 )
 

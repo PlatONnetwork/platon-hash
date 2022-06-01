@@ -51,27 +51,27 @@ with open('./README.md') as readme:
 
 
 setup(
-    name='eth-hash',
+    name='platon-hash',
     # *IMPORTANT*: Don't manually change the version here. Use `make bump`, as described in readme
-    version='0.3.1',
-    description="""eth-hash: The Ethereum hashing function, keccak256, sometimes (erroneously) called sha3""",
+    version='1.2.0',
+    description="""platon-hash: The Platon hashing function, keccak256, sometimes (erroneously) called sha3""",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    author='The Ethereum Foundation',
-    author_email='snakecharmers@ethereum.org',
-    url='https://github.com/ethereum/eth-hash',
+    author='Shinnng',
+    author_email='shinnng@outlook.com',
+    url='https://github.com/platonnetwork/platon-hash',
     include_package_data=True,
     install_requires=[
-        "eth-utils>=1,<2",
+        "Platon-utils>=1,<2",
     ],
     python_requires='>=3.5, <4',
     extras_require=extras_require,
-    py_modules=['eth_hash'],
+    py_modules=['platon_hash'],
     license="MIT",
     zip_safe=False,
-    keywords='ethereum',
+    keywords='platon',
     packages=find_packages(exclude=["tests", "tests.*"]),
-    package_data={'eth_hash': ['py.typed']},
+    package_data={'platon_hash': ['py.typed']},
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',

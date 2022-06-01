@@ -1,7 +1,7 @@
-eth-hash
+platon-hash
 ==============================
 
-The Ethereum hashing function, keccak256, sometimes (erroneously) called sha3
+The Platon hashing function, keccak256, sometimes (erroneously) called sha3
 
 Contents
 --------
@@ -10,8 +10,8 @@ Contents
     :maxdepth: 2
 
     quickstart
-    eth_hash.backends
-    eth_hash
+    platon_hash.backends
+    platon_hash
     release_notes
 
 

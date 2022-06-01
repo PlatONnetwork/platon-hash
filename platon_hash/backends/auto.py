@@ -2,11 +2,11 @@ from typing import (
     Union,
 )
 
-from eth_hash.abc import (
+from platon_hash.abc import (
     BackendAPI,
     PreImageAPI,
 )
-from eth_hash.utils import (
+from platon_hash.utils import (
     auto_choose_backend,
 )
 

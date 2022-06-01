@@ -31,7 +31,7 @@ lint:
 	tox -elint
 
 lint-roll:
-	isort --recursive eth_hash tests
+	isort --recursive platon_hash tests
 	$(MAKE) lint
 
 test:
@@ -41,7 +41,7 @@ test-all:
 	tox
 
 build-docs:
-	rm docs/eth_hash.backends.rst
+	rm docs/platon_hash.backends.rst
 	sphinx-apidoc -o docs/ . setup.py "*conftest*"
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html

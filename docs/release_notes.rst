@@ -3,28 +3,28 @@ Release Notes
 
 .. towncrier release notes start
 
-eth-hash v0.3.1 (2021-01-21)
+platon-hash v0.3.1 (2021-01-21)
 ----------------------------
 
 Bugfixes
 ~~~~~~~~
 
-- Bugfix to export type annotations (`#28 <https://github.com/ethereum/eth-hash/issues/28>`__)
+- Bugfix to export type annotations (`#28 <https://github.com/platonnetwork/platon-hash/issues/28>`__)
 
 
-eth-hash v0.3.0 (2021-01-20)
+platon-hash v0.3.0 (2021-01-20)
 ----------------------------
 
 Features
 ~~~~~~~~
 
-- Export type annotations, for use in importing projects (`#29 <https://github.com/ethereum/eth-hash/issues/29>`__)
+- Export type annotations, for use in importing projects (`#29 <https://github.com/platonnetwork/platon-hash/issues/29>`__)
 
 
-Internal Changes - for eth-hash Contributors
+Internal Changes - for platon-hash Contributors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Import 3 years worth of template updates (`#29 <https://github.com/ethereum/eth-hash/issues/29>`__)
+- Import 3 years worth of template updates (`#29 <https://github.com/platonnetwork/platon-hash/issues/29>`__)
 
 
 v0.2.0
@@ -55,7 +55,7 @@ v0.1.2
 
 Released Apr 2, 2018
 
-- You can now import eth-hash without a backend, it won't fail until trying to generate a hash
+- You can now import platon-hash without a backend, it won't fail until trying to generate a hash
 
 v0.1.1
 --------------
@@ -81,7 +81,7 @@ Released Feb 7, 2018
 
 - Add pycryptodome backend support
 - Add pysha3 backend support
-- Can specify backend in environment variable ``ETH_HASH_BACKEND``
+- Can specify backend in environment variable ``platon_hash_BACKEND``
 - New :ref:`Quickstart` docs
 
 v0.1.0-alpha.2

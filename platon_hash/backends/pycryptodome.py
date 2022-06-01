@@ -6,7 +6,7 @@ from Crypto.Hash import (
     keccak,
 )
 
-from eth_hash.abc import (
+from platon_hash.abc import (
     BackendAPI,
     PreImageAPI,
 )

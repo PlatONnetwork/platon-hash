@@ -1,44 +1,44 @@
-# eth-hash
+# platon-hash
 
-[![Join the chat at https://gitter.im/ethereum/web3.py](https://badges.gitter.im/ethereum/web3.py.svg)](https://gitter.im/ethereum/web3.py?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://circleci.com/gh/ethereum/eth-hash.svg?style=shield)](https://circleci.com/gh/ethereum/eth-hash)
-[![PyPI version](https://badge.fury.io/py/eth-hash.svg)](https://badge.fury.io/py/eth-hash)
-[![Python versions](https://img.shields.io/pypi/pyversions/eth-hash.svg)](https://pypi.python.org/pypi/eth-hash)
-[![Docs build](https://readthedocs.org/projects/eth-hash/badge/?version=latest)](http://eth-hash.readthedocs.io/en/latest/?badge=latest)
+[![Join the chat at https://gitter.im/platonnetwork/web3.py](https://badges.gitter.im/platonnetwork/web3.py.svg)](https://gitter.im/platonnetwork/web3.py?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://circleci.com/gh/platonnetwork/platon-hash.svg?style=shield)](https://circleci.com/gh/platonnetwork/platon-hash)
+[![PyPI version](https://badge.fury.io/py/platon-hash.svg)](https://badge.fury.io/py/platon-hash)
+[![Python versions](https://img.shields.io/pypi/pyversions/platon-hash.svg)](https://pypi.python.org/pypi/platon-hash)
+[![Docs build](https://readthedocs.org/projects/platon-hash/badge/?version=latest)](http://platon-hash.readthedocs.io/en/latest/?badge=latest)
    
 
-The Ethereum hashing function, keccak256, sometimes (erroneously) called sha3
+The Platon hashing function, keccak256, sometimes (erroneously) called sha3
 
-Note: the similarly named [pyethash](https://github.com/ethereum/ethash)
+Note: the similarly named [pyethash](https://github.com/platonnetwork/ethash)
 has a completely different use: it generates proofs of work.
 
-This is a low-level library, intended to be used internally by other Ethereum tools.
+This is a low-level library, intended to be used internally by other Platon tools.
 If you're looking for a convenient hashing tool, check out
-[`eth_utils.keccak()`](https://eth-utils.readthedocs.io/en/stable/utilities.html#keccak-bytes-int-bool-text-str-hexstr-str-bytes)
+[`platon_utils.keccak()`](https://Platon-utils.readthedocs.io/en/stable/utilities.html#keccak-bytes-int-bool-text-str-hexstr-str-bytes)
 which will be a little friendlier, and provide access to other helpful utilities.
 
-Read more in the [documentation on ReadTheDocs](https://eth-hash.readthedocs.io/). [View the change log](https://eth-hash.readthedocs.io/en/latest/release_notes.html).
+Read more in the [documentation on ReadTheDocs](https://platon-hash.readthedocs.io/). [View the change log](https://platon-hash.readthedocs.io/en/latest/release_notes.html).
 
 
 ## Quickstart
 
 ```sh
-pip install eth-hash[pycryptodome]
+pip install platon-hash[pycryptodome]
 ```
 
 ```py
->>> from eth_hash.auto import keccak
+>>> from platon_hash.auto import keccak
 >>> keccak(b'')
 b"\xc5\xd2F\x01\x86\xf7#<\x92~}\xb2\xdc\xc7\x03\xc0\xe5\x00\xb6S\xca\x82';{\xfa\xd8\x04]\x85\xa4p"
 ```
 
-See the [docs](http://eth-hash.readthedocs.io/en/latest/quickstart.html#quickstart)
+See the [docs](http://platon-hash.readthedocs.io/en/latest/quickstart.html#quickstart)
 for more about choosing and installing backends.
 
 ## Developer Setup
 
-If you would like to hack on eth-hash, please check out the [Snake Charmers
-Tactical Manual](https://github.com/ethereum/snake-charmers-tactical-manual)
+If you would like to hack on platon-hash, please check out the [Snake Charmers
+Tactical Manual](https://github.com/platonnetwork/snake-charmers-tactical-manual)
 for information on how we do:
 
 - Testing
@@ -51,8 +51,8 @@ for information on how we do:
 You can set up your dev environment with:
 
 ```sh
-git clone git@github.com:ethereum/eth-hash.git
-cd eth-hash
+git clone git@github.com:platonnetwork/platon-hash.git
+cd platon-hash
 virtualenv -p python3 venv
 . venv/bin/activate
 pip install -e .[dev]
@@ -66,7 +66,7 @@ Show flake8 errors on file change:
 
 ```sh
 # Test flake8
-when-changed -v -s -r -1 eth_hash/ tests/ -c "clear; flake8 eth_hash tests && echo 'flake8 success' || echo 'error'"
+when-changed -v -s -r -1 platon_hash/ tests/ -c "clear; flake8 platon_hash tests && echo 'flake8 success' || echo 'error'"
 ```
 
 Run multi-process tests in one command, but without color:
@@ -82,7 +82,7 @@ Run in one thread, with color and desktop notifications:
 
 ```sh
 cd venv
-ptw --onfail "notify-send -t 5000 'Test failure ⚠⚠⚠⚠⚠' 'python 3 test on eth-hash failed'" ../tests ../eth_hash
+ptw --onfail "notify-send -t 5000 'Test failure' 'python 3 test on platon-hash failed'" ../tests ../platon_hash
 ```
 
 ### Release setup
